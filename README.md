@@ -14,9 +14,8 @@ MutiaraSurvey adalah platform kuesioner dan analisis berbasis web yang dirancang
 * **Database**: MySQL / MariaDB
 * **Development Environment**: Laragon / XAMPP
 
-🔐 Akun Login Default
-Role: Admin
+## 🔐 Akun Login Default
+* **Role: Admin
 
-Username / NIS: 222374
-
-Password: bayu24
+* **Username / NIS: 222374
+* **Password: bayu24
