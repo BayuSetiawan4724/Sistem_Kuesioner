@@ -1,0 +1,40 @@
+body {
+    background: linear-gradient(180deg, #f8fbff 0%, #eef2ff 100%);
+    min-height: 100vh;
+}
+
+.hero {
+    background: radial-gradient(circle at 20% 20%, rgba(13,110,253,0.12), transparent 25%),
+                radial-gradient(circle at 80% 0%, rgba(32,201,151,0.12), transparent 25%),
+                #f8fbff;
+    border-bottom-left-radius: 48px;
+    border-bottom-right-radius: 48px;
+}
+
+.glass-card {
+    background: rgba(255, 255, 255, 0.82);
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.08);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+}
+
+.dashboard-card:hover {
+    transform: translateY(-4px);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    box-shadow: 0 18px 38px rgba(13, 110, 253, 0.14);
+}
+
+.form-control, .btn {
+    border-radius: 12px;
+}
+
+.bg-primary-soft {
+    background-color: rgba(13, 110, 253, 0.12);
+}
+
+@media (max-width: 576px) {
+    .hero h1 { font-size: 1.8rem; }
+    .hero p { font-size: 1rem; }
+}
+
